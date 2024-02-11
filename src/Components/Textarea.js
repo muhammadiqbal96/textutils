@@ -42,10 +42,10 @@ export default function Textarea(props) {
           }
         ></textarea>
       </div>
-      <button className='btn btn-primary mx-1' onClick={handleUpClick}>To Uppercase</button>
-      <button className='btn btn-primary mx-1' onClick={handleLOClick}>To Lowercase</button>
-      <button className='btn btn-primary mx-1' onClick={handleClearClick}>Clear Text</button>
-      <button className='btn btn-primary mx-1' onClick={handleCopyClick}>Copy Text</button>
+      <button className='btn btn-primary mx-1 my-2' onClick={handleUpClick}>To Uppercase</button>
+      <button className='btn btn-primary mx-1 my-2' onClick={handleLOClick}>To Lowercase</button>
+      <button className='btn btn-primary mx-1 my-2' onClick={handleClearClick}>Clear Text</button>
+      <button className='btn btn-primary mx-1 my-2' onClick={handleCopyClick}>Copy Text</button>
       <div className='my-3'  style={{color : props.mode === "Dark" ? "black" : "white"}}>
         <h3>Text Summary</h3>
         <p>{text.split(/\s+/).filter((e)=>{return e.length!==0}).length} words and {text.length} character</p>
