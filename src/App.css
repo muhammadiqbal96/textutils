@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+}
+.px-16{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.mx-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar-brand{
+  font-weight: bolder;
+  font-size: 28px;
+  transition: all 0.5s;
+}
+.navbar-brand:hover{
+ transform: scale(1.1);
+}
+.nav-link{
+  margin-top: 3px;
+  font-weight: 600;
+}
+.nav-link:hover{
+   color: brown;
+   text-decoration: underline 2px wavy brown;
+}
+#bg-h:hover{
+   color: brown;
+   text-decoration: underline 2px wavy brown;
+}
+.accordion{
+  border-radius: 5px;
+}
